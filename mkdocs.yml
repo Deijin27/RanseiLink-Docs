@@ -1,0 +1,92 @@
+site_name: RanseiLink
+site_url: https://ransei.link
+repo_url: https://github.com/Deijin27/RanseiLink
+repo_name: Deijin/RanseiLink
+extra_css:
+  - stylesheets/extra.css
+theme: 
+  name: material
+  logo: assets/logo.png
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.sections
+    - content.tabs.link
+    - content.tooltips
+    - navigation.top
+    - navigation.indexes
+  palette: 
+    # Dark Mode
+    - scheme: slate
+      primary: custom
+      toggle: 
+        icon: material/weather-sunny
+        name: Dark mode
+    # Light Mode
+    - scheme: default
+      primary: white
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+  
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - abbr
+  - def_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/Deijin27/RanseiLink
+
+copyright: Copyright &copy; 2025 Deijin
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - getting-started/installation.md
+    - getting-started/importing-mods.md
+    - getting-started/randomizer.md
+    - getting-started/plugins.md
+    - Changelog:
+      - changelog/index.md
+    - Command Line:
+      - getting-started/scripting/sample-lua-scripts.md
+      
+  - Guides:
+    - guides/index.md
+    - Image Editing:
+      - guides/image-editing/introductory-walkthrough.md
+      - guides/image-editing/image-types.md
+      - guides/image-editing/pokemon-battle-sprite-guide.md
+      - guides/image-editing/battle-sprite-creation-process.md
+      - guides/image-editing/cell-animation-editing.md
+    - Map Editing:
+      - guides/map-editing/map-editing.md
+  - Research:
+    - File Formats:
+      - research/file-formats/link-archive.md
+      - research/file-formats/nds-file-system.md
+    - Game Data:
+      - research/game-data/pokemon-battle-intro-sprite-offset.md
+      - research/game-data/regional-differences.md
+      - research/game-data/pokemon-models.md
+  - Community:
+    - community/community.md
+    - community/contributing.md
+    - community/more-tools.md
