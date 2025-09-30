@@ -19,3 +19,4 @@ Examples:
 ## Documentation
 
 Snap created the [Battle Sprite Creation Process Guide](../guides/image-editing/battle-sprite-creation-process.md)
+
