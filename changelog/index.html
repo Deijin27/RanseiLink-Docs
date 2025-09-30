@@ -1,0 +1,2146 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ransei.link/changelog/">
+      
+      
+        <link rel="prev" href="../getting-started/plugins/">
+      
+      
+        <link rel="next" href="../getting-started/scripting/sample-lua-scripts/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.17">
+    
+    
+      
+        <title>Changelog - RanseiLink</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#changelog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="RanseiLink" class="md-header__button md-logo" aria-label="RanseiLink" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RanseiLink
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Deijin27/RanseiLink" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Deijin/RanseiLink
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../getting-started/installation/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../guides/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../research/file-formats/link-archive/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Research
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../community/community/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Community
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="RanseiLink" class="md-nav__button md-logo" aria-label="RanseiLink" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    RanseiLink
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Deijin27/RanseiLink" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Deijin/RanseiLink
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Getting Started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/importing-mods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Importing Mods
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/randomizer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Randomizer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/plugins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Plugins Explained
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  
+  <span class="md-ellipsis">
+    Changelog
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Changelog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Command Line
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            Command Line
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/scripting/sample-lua-scripts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sample Lua Scripts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../guides/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Guides
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Image Editing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Image Editing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guides/image-editing/introductory-walkthrough/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introductory Walkthrough
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guides/image-editing/image-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Image Types
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guides/image-editing/pokemon-battle-sprite-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pokemon Battle Sprite Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guides/image-editing/battle-sprite-creation-process/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pokemon Battle Sprite Creation Process
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guides/image-editing/cell-animation-editing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cell Animation Editing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Map Editing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Map Editing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guides/map-editing/map-editing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Editing 3D Models of Maps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Research
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Research
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    File Formats
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            File Formats
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../research/file-formats/link-archive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LINK Archive
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../research/file-formats/nds-file-system/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NDS File System Structure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Game Data
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Game Data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../research/game-data/pokemon-battle-intro-sprite-offset/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pokemon battle intro sprite offset
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../research/game-data/regional-differences/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Regional Differences
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../research/game-data/pokemon-models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pokemon Models
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/more-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    More tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#6.1" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1 - Dec 13, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6.0" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.0 - Oct 26, 2024
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5.5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.5 - May 27, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5.4" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.4 - Mar 9, 2023
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5.3" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 - Dec 11, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5.2" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 - Nov 17, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5.1" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 - Nov 13, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5.0" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.0 - Sep 11, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4.9" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.9 - Jul 26, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4.8" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.8 - Jul 23, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4.7" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7 - Jun 22, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4.6" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.6 - Jun 20, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4.5" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5 - Jun 19, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4.4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 - May 29, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 - Apr 25, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 - Apr 25, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 - Apr 23, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.0 - Mar 2, 2022
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 - Dec 29, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3.0" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.0 - Dec 19, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2.0" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.0 - Oct 3, 2021
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1.0" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.0 - Sep 5, 2021
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="changelog">Changelog</h1>
+<h2 id="6.1">6.1 <small>- Dec 13, 2024</small></h2>
+<p><strong>Features</strong></p>
+<ul>
+<li>Map Editor Improvements<ul>
+<li>Support drag when editing so you can paint multiple cells in one mouse press and drag</li>
+<li>New map view modes for Bounds and Orientation. Note, it's currently unknown what the difference is between the orientation stored in cells, and the orientation stored in gimmick and pokemon entries.</li>
+<li>Reworked painting functionality, it now paints if you have the Painter tab selected. The painter tab shows a different palette dependent on what map view mode you have selected. Elevation palette is saved to user settings.</li>
+<li>Realised that previous interpretation of pokemon data was wrong, now it's displayed correctly, with each pokemon having more data than just position.</li>
+</ul>
+</li>
+<li>Move Workspace: Similar to the pokemon and warrior workspaces, moves are displayed in a list where items have a preview of the range of the move, and it's type, power, and name.</li>
+<li>Gimmick Data: Discovered some things such as where the attack power is stored. This is still very much in-progress.</li>
+</ul>
+<p><strong>Fixes</strong></p>
+<ul>
+<li>Fix issue where mods would be left in a broken state where they crashed whenever opened if pokemon evolutions were modified in 6.0. Those mods will no longer crash, but the evolutions of pokemon will be messed up, you will need to manually go through and fix the evolutions, sorry about this.</li>
+</ul>
+<h2 id="6.0">6.0 <small>- Oct 26, 2024</small></h2>
+<p><strong>Mod Features</strong></p>
+<ul>
+<li>Support for editing Animations (<a href="https://github.com/Deijin27/RanseiLink/wiki/Cell-Animation-Editing-Guide">Guide</a>)<ul>
+<li>Kingdom top-screen backgrounds</li>
+<li>Kingdom bottom-screen backgrounds</li>
+<li>Kingdom map icons</li>
+<li>Building medium-size icons </li>
+</ul>
+</li>
+<li>Support for new still image types:<ul>
+<li>Building Small Icons</li>
+<li>Battle Minimaps</li>
+<li>Kingdom top-screen background (still version of the animation)</li>
+</ul>
+</li>
+</ul>
+<p><strong>Tool Enhancements</strong></p>
+<ul>
+<li>Re-added the copy-paste functionality for things such as Pokemon and Moves #59</li>
+<li>Mods now support tags, and you can filter the mod list based on these tags</li>
+<li>You can now pin mods to the top of the mod list</li>
+<li>Newly added mods are temporarily sorted the top of the mod list on creation</li>
+<li>Max link now has indicators if they are above the bronze silver and gold thresholds #34</li>
+<li>Max link has a "quick set" functionality which allows you to choose what number buttons you want to have to conveniently set many link values consecutively #36. Scenario pokemon ivs and link also support this functionality.</li>
+<li>The concept of "Overwritten" is now indicated by green checkmarks throughout the tool. So whenever you replace, for example, an animation, a green checkmark appears next to it indicating it's been modified.</li>
+<li>New "Building Workspace" where you can edit building and scenario info in one place, with buildings grouped by kingdom</li>
+<li>New "Pokemon Workspace". Pokemon are displayed in a list with pictures and you can filter the list by name and type.</li>
+<li>New "Warrior Workspace". Base warriors are displayed in a list with pictures and you canfilter the list by name and speciality</li>
+<li>Bug Report Button that autofills some of the information on the github issue form</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+<li>Fix crash that sometimes occurred when restoring window dimensions #62</li>
+<li>Fix text in button not changing color when disabled</li>
+<li>Fix minor unoptimisation on warrior name table filtering</li>
+<li>Added safety measures to make corrupted files less likely e.g. when saving messages they are saved to a temporary file first, then copied to the destination</li>
+<li>Name max lengths take culture into account</li>
+</ul>
+<h2 id="5.5">5.5 <small>- May 27, 2023</small></h2>
+<p><strong>Mod Features</strong></p>
+<ul>
+<li>Edit pokemon <a href="https://github.com/Deijin27/RanseiLink/wiki/Pokemon-Battle-Intro-Sprite-Offset">BattleIntroSpriteOffset</a></li>
+<li>Battle Config minimap (plan to allow you to edit these minimaps to match custom maps) #35</li>
+</ul>
+<p><strong>Tool Enhancements</strong></p>
+<ul>
+<li>Renamed pokemon and warrior graphics types to more sensible names "Small, Medium, Large, XLarge"</li>
+<li>3D Map Viewer: You can view maps from either the map page, or the battle config page (on the battle config page, you can see the background colors too). Just supports viewing the map atm, it's not planned to support editing the 3D geometry, but it is planned to support editing the elevation, and moving around gimmicks in this 3D view. <a href="https://github.com/users/Deijin27/projects/2">Project</a></li>
+<li>On ability, move, and skill pages view the warrior / pokemon that get them in a list. #44</li>
+<li>Save and restore window dimensions, position, and state</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+<li>Fix crash modifying map dimensions</li>
+<li>Map Importer: <ul>
+<li>Prevent infinite loop when material names are tool long</li>
+<li>Automatically remove the prefixes maya adds</li>
+</ul>
+</li>
+</ul>
+<h2 id="5.4">5.4 <small>- Mar 9, 2023</small></h2>
+<p><strong>Mod Features</strong></p>
+<ul>
+<li>Edit wandering merchant item #21</li>
+</ul>
+<p><strong>Tool Enhancements</strong></p>
+<ul>
+<li>Scenario Warrior Workspace: Scenario Warrior, Pokemon, and Kingdom in one streamlined view #23</li>
+<li>Mod selection screen is more compact and displays banner images</li>
+<li>Nice progress bar style</li>
+<li>Max link sorting by name and link #29</li>
+<li>Max link inverse page where you view warriors for a pokemon #29</li>
+<li>Max link displays images of pokemon/warriors #29</li>
+<li>Users are prompted to populate graphics defaults on tool launch if they haven't yet #30</li>
+<li>Main editor is overall more compact</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+<li>Fixed patch sprites setting not persisting #19</li>
+<li>Fixed episode name length being capped #25</li>
+<li>Partial transfer plugin, and others are fixed based on a rework of how plugin completion is handled #24</li>
+</ul>
+<p><strong>Technical Background Changes</strong></p>
+<ul>
+<li>Normalized results to use FluentResults library</li>
+<li>Update RanseiLink.Core to .NET6 to accomodate ImageSharp 3.0.0</li>
+</ul>
+<h2 id="5.3">5.3 <small>- Dec 11, 2022</small></h2>
+<ul>
+<li>Fix crash on scenario warrior page</li>
+<li>Add a different way of specifying exact links, supporting every integer 0-100</li>
+<li>Label "Hit 5 times" move effect correctly</li>
+<li>Support editing scenario building information</li>
+</ul>
+<h2 id="5.2">5.2 <small>- Nov 17, 2022</small></h2>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+<li>Fix issue with map editor changes being applied to other mods opened due to improper disposal</li>
+<li>Fix crash when attempting to move pokemon/gimmicks outside of map area</li>
+<li>Fix gimmicks not being visually removed from map when deleted</li>
+<li>Fix map selected pokemon position not changing when clicking a new cell</li>
+</ul>
+<p><strong>Features</strong></p>
+<ul>
+<li>Some useful buttons to set exp to a value that gives an exact link that has been tested to be exact in-game.</li>
+</ul>
+<h2 id="5.1">5.1 <small>- Nov 13, 2022</small></h2>
+<ul>
+<li>Compatibility with European rom VPYP. RanseiLink considers this cross-compatible with the North American VPYT, since there is only minor text differences.</li>
+<li>Text filters are now insensitive to accents. e.g. if you search No, it matches Nō</li>
+<li>Fixed that the window was cropped a little when full screen</li>
+<li>Basic support to adding and removing messages from the groups that have a message per speaker_id</li>
+<li>Fix map models were able to be patched without having populated graphics defaults, which caused crash</li>
+<li>Changes that are hopefully inconsequential to users: </li>
+<li>We have changed IOC to one that is faster, maybe not noticable, but it stacks up as the app grows</li>
+<li>We are using an MVVM dialog api. This is a step towards complete separation of view and viewmodel, which would make moving to a different (Cross Platform) ui framework much easier.</li>
+</ul>
+<h2 id="5.0">5.0 <small>- Sep 11, 2022</small></h2>
+<p><strong>Changes To Installation</strong></p>
+<p>Now there is no longer a need for an installation guide. RanseiLink is published as <a href="https://docs.microsoft.com/en-us/dotnet/core/deploying/#publish-self-contained">self-contained</a>. This means the application is a lot bigger, but you no longer need to worry about installing .NET, as the necessary framework is bundled with the app. Just unzip and run.</p>
+<p><strong>What's New</strong></p>
+<ul>
+<li>Extract battle map 3D models to OBJ, edit them, then re-import into the game. You can create fully custom maps. See the <a href="https://github.com/Deijin27/RanseiLink/wiki/Map-Editing-Guide">Map Editing Guide</a> to learn more. (Big thanks for <a href="https://github.com/scurest">Scurest</a>, their documentation on NSBMDs helped a lot to getting this working)</li>
+<li>The elevation at which pokemon and gimmick sprites are placed on a map can now be edited to match your custom 3D model</li>
+<li>Disable pokemon and gimmick markers on the PSLM view, making it easier to see when editing elevation</li>
+<li>Pokemon sprite sheets also come with animations. These can now be edited. See the <a href="https://github.com/Deijin27/RanseiLink/wiki/Image-Editing-Guide#pokemon-battle-models">updated guide</a>, and an <a href="https://github.com/Deijin27/pkmdl-previewer">tool to help you preview you sprites and animations</a>. Also be sure to check out <a href="https://github.com/Deijin27/RanseiLink/wiki/Pokemon-Battle-Sprite-Creation-Process">Snap's Guide</a> for creating pokemon sprites in the conquest style.</li>
+<li>Navigate to messages by warrior by clicking on the link next "Speaker ID" on the base warrior page "tactics tactics tactics"</li>
+<li>Renamed some text parameters in messages to make more sense.</li>
+<li>Omitted constant bits in text parameter values, (where you saw 48, 49, 50, now you will see 0, 1, 2.)</li>
+<li>In text search, include all 3 members of multi-start. messages.</li>
+</ul>
+<h2 id="4.9">4.9 <small>- Jul 26, 2022</small></h2>
+<ul>
+<li>Fix bug with image patching</li>
+<li>Fix "append new" not blocked in "Title" where it isn't possible</li>
+<li>Forward and backward navigation for page selection. Only for the which main tab is selected atm.</li>
+<li>List number of overrides on sprite pages</li>
+<li>Overriden sprites have purple number</li>
+<li>View and edit warrior and pokemon sprites on the warrior and pokemon pages</li>
+</ul>
+<h2 id="4.8">4.8 <small>- Jul 23, 2022</small></h2>
+<ul>
+<li>Compatibility with japanese rom</li>
+<li>Text and ScenarioWarrior DataGrids now remember scroll position</li>
+<li>Number boxes now allow you to type over selected text</li>
+</ul>
+<p><strong>Important Notes</strong></p>
+<p>VPYT = English rom, VPYJ = Japanese rom. Mods are not cross compatible atm, but you can use the <a href="https://github.com/Deijin27/RanseiLink/wiki/Plugins-by-Deijin#partial-transfer-plugin">partial transfer plugin</a> to move most data across to a mod of the other game code.</p>
+<p>You will need to run "populate graphics defaults" again because they are now stored per-gamecode. This is to allow japanese rom defaults to be accurate.</p>
+<p>If you have no intention to use an older version of ranseilink again, you can delete the folder <code>%localappdata%\RanseiLink\DataProvider</code>. This is worth doing at some point as it will save you 120MB of storage space.</p>
+<h2 id="4.7">4.7 <small>- Jun 22, 2022</small></h2>
+<ul>
+<li>Significantly more accurate exp-to-link formula</li>
+</ul>
+<h2 id="4.6">4.6 <small>- Jun 20, 2022</small></h2>
+<ul>
+<li>Scenario pokemon only have their possible abilities listed</li>
+</ul>
+<h2 id="4.5">4.5 <small>- Jun 19, 2022</small></h2>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+<li>Fix gimmick max id incorrect which made many gimmicks not editable and map editor crashes</li>
+<li>Banner image of incorrect size is now correctly rejected</li>
+</ul>
+<p><strong>New Editables</strong></p>
+<ul>
+<li>Move: Movement/Knockback (fully reproduce behaviour of flame wheel / volt switch / aqua tail / fiery dance etc.), plus a couple of values not sure what they do yet</li>
+<li>Building: Referenced buildings. Not sure what they do yet</li>
+</ul>
+<h2 id="4.4">4.4 <small>- May 29, 2022</small></h2>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+<li>Safely create new settings file if file is corrupt</li>
+<li>Fix image simplifier sometimes being one color over because the quantizer changed the transparency to a different color. Transparency is now preserved and the palette is simplified to the correct amount.</li>
+<li>Validation on text editing</li>
+</ul>
+<p><strong>New Editables</strong></p>
+<ul>
+<li>Pokemon: Catch rate</li>
+<li>Scenario warrior: Item</li>
+<li>Move: Lv5 effects, additional animation</li>
+<li>Battle config: treasure items</li>
+<li>Banner (the title and image shown on the DS menu) (make a new mod to extract the default image)</li>
+<li>Title screen images (requires you to run "Populate Graphics Defaults" again)</li>
+</ul>
+<h2 id="">4.3 <small>- Apr 25, 2022</small></h2>
+<ul>
+<li>Bug fix: Fix pokemon evolution conditions breaking, and similar thing in warrior rank-up condition</li>
+<li>Grid editor for scenario pokemon</li>
+<li>Experimental editables for pokemon sprite values. Only use if you know what you're doing.</li>
+</ul>
+<h2 id="">4.2 <small>- Apr 25, 2022</small></h2>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+<li>Fix navigate to invalid ids causing crash</li>
+<li>Fix text changes not being saved</li>
+<li>Fix max link not visually updating when switching pages</li>
+<li>Fix item names in child selector of scenarioselectors not updating when switching scenario</li>
+<li>Fix some incorrently labelled item effect values</li>
+<li>Fix scenariopokemon changes done in scenariowarrior page not saving</li>
+<li>Safely ignore wpf bug where moduleid is occasionally set to null for no reason</li>
+</ul>
+<p><strong>New Editables</strong></p>
+<ul>
+<li>Episode: Initial kingoms, unlocked kingdoms, clear condition</li>
+</ul>
+<h2 id="">4.1 <small>- Apr 23, 2022</small></h2>
+<ul>
+<li>Map editing bug fixes</li>
+<li>Fix gimmick in cell not updating visually when changed</li>
+<li>Fix gimmick parameters not getting set</li>
+<li>Ease of use changes</li>
+<li>Comboboxes are filled in with user assigned names</li>
+<li>Editing grids removed atm because of above change making them far more difficult</li>
+<li>Improved edit interface for pokemon habitat values</li>
+<li>View army summary by clicking on kingdom name in ScenarioKingdom page</li>
+<li>New Editables</li>
+<li><strong>Episodes</strong>: Scenario, Unlock condition, Difficulty, Convenient editing of name and description</li>
+<li><strong>Item</strong>: Crafting recipe, Category, Effect and duration, Required building level</li>
+<li><strong>Pokemon</strong>: Easy editing of pokemon evolutions, with unlimited adding and removing evolutions supported</li>
+</ul>
+<h2 id="">4.0 <small>- Mar 2, 2022</small></h2>
+<ul>
+<li>
+<p><strong>Battle Maps</strong>: pokemon start positions, gimmicks, terrain type</p>
+</li>
+<li>
+<p><strong>Battle configs</strong>: which map, victory requirements, background colors, number of turns</p>
+</li>
+<li>
+<p><strong>Building</strong>: battle config, sprite, function</p>
+</li>
+<li>
+<p><strong>Items</strong>: where they can be purchased, quantity for effect</p>
+</li>
+<li>
+<p><strong>Gimmick ranges</strong> can be modified the same way move ranges can</p>
+</li>
+<li>
+<p><strong>Scenario pokemon</strong>: initial link</p>
+</li>
+<li>
+<p><strong>Scenario Warrior</strong>: up to 8 pokemon on a warrior from the start</p>
+</li>
+<li>
+<p><strong>Pokemon</strong>: idle animation</p>
+</li>
+<li>
+<p><strong>Sprites</strong>: Still images, Screen Backgrounds, Battle Sprites</p>
+</li>
+</ul>
+<p><a href="https://github.com/Deijin27/RanseiLink/wiki/Image-Editing-Guide">Image editing guide</a></p>
+<h2 id="">3.1 <small>- Dec 29, 2021</small></h2>
+<ul>
+<li>Bug fixes<ul>
+<li>Fix crash on mod selection page when multiple plugins</li>
+<li>Fix item description setting wrong data</li>
+<li>Prevent editing descriptions of dummys without allocated descriptions slots (which was overriding unrelated text)</li>
+</ul>
+</li>
+<li>Text editing improvements<ul>
+<li>Loading: accented latin characters, better variable names, faster loads, etc.</li>
+<li>Additional ease of access item and ability descriptions</li>
+</ul>
+</li>
+<li>Utility features<ul>
+<li>common iv buttons</li>
+<li>search warrior names</li>
+<li>jump from scenario pokemon to scenario warrior</li>
+<li>change editor page tab order</li>
+</ul>
+</li>
+<li>New editables<ul>
+<li>Kingdom (name, which battle map to use, overworld connections)</li>
+<li>Gimmick (name, attack type, destroy type, animations)</li>
+</ul>
+</li>
+</ul>
+<h2 id="3.0">3.0 <small>- Dec 19, 2021</small></h2>
+<ul>
+<li>Base Warriors (wisdom, speciality, rank up conditions etc)</li>
+<li>Warrior Names</li>
+<li>Per scenario appear pokemon (use in combination with toggles on pokemon page)</li>
+<li>Per scenario army kingdom assignment</li>
+<li>Scenario Warrior class, kingdom and army assignment</li>
+<li>Minimal editing of Items and Buildings</li>
+<li>Text editing (huge thanks to <a href="https://github.com/pleonex/PokemonConquest">pleonex</a>)</li>
+<li>Event speakers</li>
+<li>Move animation editing with previewer so you know what the animation looks like (thanks to <a href="https://allmylinks.com/evoking789">WhatAUsernameIHave</a> and <a href="https://allmylinks.com/snarp1969">Snap</a> for the help)</li>
+<li>Visual updates including dark theme and light theme</li>
+<li>Plugin support. And move randomizer code into a plugin.</li>
+<li>Ease of use changes including jump navigation and grids (<a href="https://github.com/Deijin27/RanseiLink/wiki/Tips-for-using-grids-in-RanseiLink">some useful tips for grids</a>)</li>
+</ul>
+<p><strong>Upgrading Mods from Version 2.0</strong></p>
+<p>Mods created in older versions of RanseiLink require upgrading to work with this version (text editing requires extra data from the rom).
+Using the windows app you will see a button on the left which you should click to upgrade your mods. You will be prompted to provide it with an unchanged copy of the rom.
+For the console application, use the command <code>dotnet RanseiLink.Console.dll upgrade mods "C:\Rom\Path.nds"</code></p>
+<h2 id="2.0">2.0 <small>- Oct 3, 2021</small></h2>
+<ul>
+<li>Project management system</li>
+<li>Scenario Pokemon</li>
+<li>Scenario Warrior</li>
+<li>Evolution Table</li>
+<li>Quantity for evolution condition</li>
+<li>Pokemon movement range</li>
+<li>Max Link</li>
+<li>Randomization</li>
+</ul>
+<p><strong>Porting v0.1.0 projects</strong></p>
+<p>Here is a short guide of how to transfer stuff you've worked on in RanseiLink v0.1.0 to this version:
+https://github.com/Deijin27/RanseiLink/wiki/Version-1-to-2-Project-Transfer-Guide</p>
+<h2 id="1.0">1.0 <small>- Sep 5, 2021</small></h2>
+<p>Initial Release</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../getting-started/plugins/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Plugins Explained">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Plugins Explained
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../getting-started/scripting/sample-lua-scripts/" class="md-footer__link md-footer__link--next" aria-label="Next: Sample Lua Scripts">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Sample Lua Scripts
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Deijin
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Deijin27/RanseiLink" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.footer", "navigation.tabs", "navigation.sections", "content.tabs.link", "content.tooltips", "navigation.top", "navigation.indexes"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
