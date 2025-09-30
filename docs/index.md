@@ -7,7 +7,7 @@ title: Home
 
 # RanseiLink - Pokémon Conquest Rom Editor
 
-<a href="https://github.com/Deijin27/RanseiLink/releases/download/v6.1/RanseiLink-Windows-6.1.zip"><img src="/assets/download-windows.png" width="150"
+<a href="https://github.com/Deijin27/RanseiLink/releases/download/v6.1/RanseiLink-Windows-6.1.zip"><img src="assets/download-windows.png" width="150"
 alt="Download for Windows"></a>
 
 
@@ -17,7 +17,7 @@ alt="Download for Windows"></a>
 ## Edit Game Data
 
 <div class="grid cards" markdown>
--   <img src="/assets/frosmoth.png" width="250" title="Frosmoth from Reconquered by WhatAUsernameIHave">
+-   ![](./assets/frosmoth.png){ width="250" title="Frosmoth from Reconquered by WhatAUsernameIHave" }
 
     **Edit Game Data**
 
@@ -25,7 +25,7 @@ alt="Download for Windows"></a>
 
     [:material-arrow-right: Learn More](#)
 
--   <img src="/assets/spanish-translation.png" height="250" title="Traducción al Español por Everson y ElChris">
+-   ![](./assets/spanish-translation.png){ height="250" title="Traducción al Español por Everson y ElChris" }
 
     **Translate**
 
@@ -33,7 +33,7 @@ alt="Download for Windows"></a>
 
     [:material-arrow-right: Learn More](./guides/map-editing/map-editing.md)
 
--   <img src="/assets/kingdom-top-screen-anim.gif" width="250" title="Screenshot from RanseiLink animation editor">
+-   ![](./assets/kingdom-top-screen-anim.gif){ width="250" title="Screenshot from RanseiLink animation editor" }
 
     **Randomize**
 
@@ -46,7 +46,7 @@ alt="Download for Windows"></a>
 ## Create Custom Graphics
 
 <div class="grid cards" markdown>
--   <img src="/assets/bulbasaur.gif" width="250" title="Bulbasaur sprite by Doanmit">
+-   ![](./assets/bulbasaur.gif){ width="250" title="Bulbasaur sprite by Doanmit" }
 
     **Sprites**
 
@@ -54,7 +54,7 @@ alt="Download for Windows"></a>
 
     [:material-arrow-right: Learn More](./guides/image-editing/image-types.md)
 
--   <img src="/assets/terrera-3d.png" width="250" title="Custom map from Twin Dragons by Bagon">
+-   ![](./assets/terrera-3d.png){ width="250" title="Custom map from Twin Dragons by Bagon" }
 
     **Battle Maps**
 
@@ -62,7 +62,7 @@ alt="Download for Windows"></a>
 
     [:material-arrow-right: Learn More](./guides/map-editing/map-editing.md)
 
--   <img src="/assets/kingdom-top-screen-anim.gif" width="250" title="Screenshot from RanseiLink animation editor">
+-   ![](./assets/kingdom-top-screen-anim.gif){ width="250" title="Screenshot from RanseiLink animation editor" }
 
     **Advanced Animations**
 
