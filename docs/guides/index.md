@@ -15,3 +15,5 @@
   [Image Types]: image-editing/image-types.md
   [Sprite Creation]: image-editing/battle-sprite-creation-process.md
   [Cell Animation]: image-editing/cell-animation-editing.md
+
+## Map Editing
