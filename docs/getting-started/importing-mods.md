@@ -6,7 +6,7 @@
 
 Launch RanseiLink you will see this:
 
-![](./assets/home-screen-sidebar.png){ width="300" }
+![](../assets/home-screen-sidebar.png){ width="300" }
 
 ## Import Mod
 

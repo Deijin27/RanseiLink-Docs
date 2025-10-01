@@ -6,7 +6,7 @@ In the _Plugins_ folder next to the RanseiLink exe you will see the Randomizer P
 
 Launch RanseiLink and click the "Create Mod" button  
 
-![](./assets/home-screen-sidebar.png){ width="300" }
+![](../assets/home-screen-sidebar.png){ width="300" }
 
 Provide it with unchanged rom, and your desired title, version, author etc.
 

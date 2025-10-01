@@ -32,15 +32,11 @@ I am going to export the image of male player and draw a splendid moustache
 
 Now in ranseilink I right click on the image I want to replace and click 'Import Override', then in the file picker choose the file I want to replace it with. If you have added additional colours it will trigger the palette simplifier. This will automatically reduce the colors of an image while changing it minimally. For most images there are 256 allowed colors, so the difference will not be noticable.
 
-Now you will see your image in the list:
+Once that's done you should see your image in the list.
 
-![](https://i.imgur.com/vO7r7DI.png){ width="500" }
+To finish up, patch a copy of your original rom with the changes. There is a quick access button :material-publish: for patching in the bottom left of the window.
 
-Now patch a copy of your original rom with the changes. There is a quick access button for patching in the bottom left of the screen:
-
-![](https://i.imgur.com/3e9wEAv.png)
-
-And now load up the rom and see the changes:
+Load up the rom and see the changes:
 
 ![](../../assets/image-guide/moustache.png){ width="300" }
 
