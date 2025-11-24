@@ -1,5 +1,50 @@
 # Changelog
 
+## 7.0 { id="7.0" }
+
+**Modding Capabilities**
+
+- Can now edit the timing of the movement animation thanks to [Bagon's research](https://github.com/Deijin27/RanseiLink/discussions/57)
+- Move animations: They are actually a combination of the visual animation to play and the sound to play. Haven't assigned names to the sounds yet as they don't seem to line up perfectly with the sound files so not sure how the numbers map to the files.
+- The [swarm](https://bulbapedia.bulbagarden.net/wiki/Kingdom_event#Pok%C3%A9mon_swarms) pokemon for a kingdom can now be modified.
+- Gimmick Object 3D Models: Support previewing and exporting. As for importing, you can only re-texture at the moment, but hopefully that will allow people to re-texture existing gimmicks to better fit different/custom battle maps.
+
+**Tool Features**
+
+- Most modules have a "workspace" layout now with the list of items to the left. New ones: Gimmick, Kingdom, Episode, Ability, Warrior Skill, Event Speaker, BattleConfig, Map, MoveRange and GimmickRange
+- Update notification: Button appears on the mod selection page sidebar if a new version of RanseiLink is available, clicking takes you to the release page.
+- Nickname system: Allows you to assign names to things that don't actually have names in-game, such as battle configs, maps, move ranges etc. These names have no effect in game, but should make things easier to find in RanseiLink after you make customisations.
+- Names now live sync to dropdowns on other pages, so if you change the name of something you don't need to re-open the mod for it to update in other places.
+- Wherever then Game Code (e.g. VPYT) was displayed to the user, replace with the corresponding region name (e.g. North America) so it's more obvious what it means.
+- The navigate back functionality previously was just when switching page, but now it also includes currently selected item on a page. For example, if you switch from pikachu to raichu on the pokemon page, the back button will take you back to pikachu.
+- Add kingdom name to kingdom list headers on building and scenario warrior pages. Previously you had to squint to read the name in the sprite.
+- Updated ui for editing pokemon evolutions. You can delete specific items rather than only the last item, and each item has a picture of the pokemon which you can click to navigate to it. There's also a list of pokemon that the selected pokemon evolves from so its easy to navigate to pre-evolution.
+- The kingdom page now has list of what items are purchasable, and what pokemon are encounterable. This data is still edited via the item and pokemon pages respectively, but it's useful to have a reverse lookup to get an overview and check for mistakes.
+- "Name Order Index" is removed from the Pokemon page because it's now automatically generated when saving the pokemon. This works identical to original for both english and japanese.
+- Theme update:
+    - Update to colors. I think the light theme in particular looks a lot better.
+    - Overhaul of the look of plugins option form UI, so things like the randomizer are much cleaner.
+- Where possible use SaveFile rather than Folder picker dialog when saving a single file, giving a more intuitive save experience.
+- Updates to the Map Editor
+    - Gimmick list now has icons in items
+    - Gimmick and pokemon relocation controls are fixed in place at the top rather than being next to current selection
+    - You can move move and zoom into the map view, making it easier to make small edits, particularly when editing elevation.
+    - Various other little visual tweaks
+
+**Fixes and Performance Improvements**
+
+- Make workspace text search ignore accents on letters. It also auto clears the search text when you intentionally click on an item in the list, but not when it automatically selects one while you type.
+- Text Editing: Allow newlines in messages
+- Fix mod created via "create based on" not getting temporarily marked as new and sorted to the top of the list.
+- Make not crash trying to load sprites if graphics defaults not populated.
+- Fix workspace list items not visually updating when pasting copied data
+- Improve search performance in workspaces by removing unecessary page reloads.
+- Open mod edit page, then load the data on the page after, so it feels more reactive to your click.
+- Various minor visual issues fixed including some missing margins and certain colors not dynamically updating.
+- Fix "asymmetric" and "long attack" buttons not visually updating when importing a custom pokemon sprite animation
+- Fix building animated sprite import-export not working.
+
+
 ## 6.1 <small>- Dec 13, 2024</small> { id="6.1" }
 
 **Features**
