@@ -81,5 +81,5 @@ Thank you to everyone who's helped make RanseiLink what it is today <span style=
 - [Snap](https://github.com/SnapSnarp) Documentation, Testing and Research
 - [WhatAUsernameIHave](https://linktr.ee/whatausernameihave) Video Tutorials, Testing and Research
 - [Baconfry](https://github.com/Baconfry) Testing and Research
-- [Bagon](https://linktr.ee/bagonganda) Testing and Research
+- [Bagon](https://linktr.ee/bagonganda) Video Tutorials, Testing and Research
 - [Geodude6](https://github.com/Geodude6) Research
