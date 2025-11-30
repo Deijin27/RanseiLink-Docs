@@ -1,3 +1,8 @@
+---
+icon: lucide/brush
+title: Sprite Creation
+---
+
 # Pokemon Battle Sprite Creation Process
 
 So you've gone through the [Image Editing Guide], understand the basics, and now want to make a custom battle sprite. Whether that be a palette swap, a Pokemon not in Conquest, or something else entirely, this guide will teach you how the sprite creation process works.

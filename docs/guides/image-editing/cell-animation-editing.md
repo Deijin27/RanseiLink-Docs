@@ -1,3 +1,7 @@
+---
+icon: lucide/video
+---
+
 # Cell Animation Editing
 
 ## Introduction
@@ -102,37 +106,37 @@ The other section holds the "cluster" that a frame points to. The "name" of each
 <cell_collection format="OneImagePerCluster">
     <cluster name="cluster_0" file="0000.png" />
     <cluster name="cluster_1" file="0001.png">
-      <cell x="97" y="3){ width="64" height="32" />
+      <cell x="97" y="3" width="64" height="32" />
     </cluster>
     <cluster name="cluster_2" file="0002.png">
-      <cell x="97" y="3){ width="64" height="32" />
+      <cell x="97" y="3" width="64" height="32" />
     </cluster>
     <cluster name="cluster_3" file="0003.png">
-      <cell x="97" y="3){ width="64" height="32" />
+      <cell x="97" y="3" width="64" height="32" />
     </cluster>
     <cluster name="cluster_4" file="0004.png">
-      <cell x="157" y="35){ width="64" height="32" />
+      <cell x="157" y="35" width="64" height="32" />
     </cluster>
     <cluster name="cluster_5" file="0005.png">
-      <cell x="157" y="35){ width="64" height="32" />
+      <cell x="157" y="35" width="64" height="32" />
     </cluster>
     <cluster name="cluster_6" file="0006.png">
-      <cell x="157" y="35){ width="64" height="32" />
+      <cell x="157" y="35" width="64" height="32" />
     </cluster>
     <cluster name="cluster_7" file="0007.png">
-      <cell x="157" y="35){ width="64" height="32" />
+      <cell x="157" y="35" width="64" height="32" />
     </cluster>
     <cluster name="cluster_8" file="0008.png">
-      <cell x="64" y="16){ width="32" height="64" />
+      <cell x="64" y="16" width="32" height="64" />
     </cluster>
     <cluster name="cluster_9" file="0009.png">
-      <cell x="64" y="16){ width="32" height="64" />
+      <cell x="64" y="16" width="32" height="64" />
     </cluster>
     <cluster name="cluster_10" file="0010.png">
-      <cell x="64" y="16){ width="32" height="64" />
+      <cell x="64" y="16" width="32" height="64" />
     </cluster>
     <cluster name="cluster_11" file="0011.png">
-      <cell x="64" y="16){ width="32" height="64" />
+      <cell x="64" y="16" width="32" height="64" />
     </cluster>
   </cell_collection>
 ```

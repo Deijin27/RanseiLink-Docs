@@ -1,3 +1,7 @@
+---
+icon: lucide/file-input
+---
+
 # Importing Mods
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xV_ixtJKsCU?si=0s75u0fPdKrAk6Xl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -6,13 +10,13 @@
 
 Launch RanseiLink you will see this:
 
-![](../assets/home-screen-sidebar.png){ width="300" }
+![](../assets/getting-started/home-screen-sidebar.png){ width="300" }
 
 ## Import Mod
 
 Click "Import Mod" and drag the mod into there (or use the file picker if you prefer):
 
-![Animated image showing a mod being dragged and dropped into the RanseiLink window](../assets/import-mod-drag.gif)
+![Animated image showing a mod being dragged and dropped into the RanseiLink window](../assets/getting-started/import-mod-drag.gif)
 
 When you click "Import" you should see the mod appear in the list on the right of the home page.
 
@@ -28,7 +32,7 @@ If the mod includes sprites, you will need to click the 'Populate Graphics Defau
 
 Right click on the mod in the list and you will see a context menu. Click the option 'Patch rom with mod'
 
-![Animated image showing the right click menu being openend on a mod and patch option being selected](../assets/patch-rom-menu.gif)
+![Animated image showing the right click menu being openend on a mod and patch option being selected](../assets/getting-started/patch-rom-menu.gif)
 
 Provide the dialog with a copy of the rom.
 

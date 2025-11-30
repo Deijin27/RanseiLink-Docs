@@ -1,3 +1,6 @@
+---
+icon: lucide/pickaxe
+---
 
 There are many ways to contribute to RanseiLink, anyone can join in.
 

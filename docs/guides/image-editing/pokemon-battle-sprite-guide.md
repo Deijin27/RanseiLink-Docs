@@ -1,4 +1,9 @@
-# Pokemon Battle Sprite Guide
+---
+icon: lucide/fish
+title: Pokémon Battle Sprites
+---
+
+# Pokémon Battle Sprite Guide
 
 ## What is in a sprite sheet
 

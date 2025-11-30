@@ -1,3 +1,7 @@
+---
+icon: lucide/graduation-cap
+---
+
 # Introductory Walkthrough
 
 This will show you how to modify images with RanseiLink step by step.
@@ -8,7 +12,7 @@ We will modify the sprite of the player to have a luscious moustache:
 
 First, if not already, you will need to populate the default sprites in ranseilink
 
-![](../../assets/home-screen-sidebar.png){ width="300" }
+![](../../assets/getting-started/home-screen-sidebar.png){ width="300" }
 
 Click the 'Populate Graphics Defaults' button on the home screen, and provide it with an ***UNCHANGED ROM*** and it will extract the files it needs. These files are shared between all mods.
 

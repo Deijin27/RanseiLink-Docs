@@ -1,3 +1,7 @@
+---
+icon: lucide/notebook-pen
+---
+
 # Changelog
 
 ## 7.0 { id="7.0" }

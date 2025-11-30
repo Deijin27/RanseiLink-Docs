@@ -1,3 +1,8 @@
+---
+icon: lucide/rotate-3d
+title: Map 3D Models
+---
+
 # Editing 3D Models of Maps
 
 To edit 3D models of maps you will need [RanseiLink v5.0 or above](https://github.com/Deijin27/RanseiLink/releases/latest), as well as an external 3D modelling software. This guide will use [blender](https://www.blender.org/), but if you have experience with another software you should be able to get the job done with that too.

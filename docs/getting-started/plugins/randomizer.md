@@ -1,3 +1,7 @@
+---
+icon: lucide/dices
+---
+
 # Randomizer
 
 In the _Plugins_ folder next to the RanseiLink exe you will see the Randomizer Plugin.
@@ -6,7 +10,7 @@ In the _Plugins_ folder next to the RanseiLink exe you will see the Randomizer P
 
 Launch RanseiLink and click the "Create Mod" button  
 
-![](../assets/home-screen-sidebar.png){ width="300" }
+![](../../assets/getting-started/home-screen-sidebar.png){ width="300" }
 
 Provide it with unchanged rom, and your desired title, version, author etc.
 
@@ -16,11 +20,11 @@ Click "Create" and your mod should appear in the list.
 
 Right click on the mod in the list then in the menu plugins -> randomizer plugin  
 
-![](../assets/randomizer/menu.png){ width="400" }
+![](../../assets/randomizer/menu.png){ width="400" }
 
 Edit the configuration, checking what you want to randomize.
 
-![](../assets/randomizer/configure-randomizer.png){ width="300" }
+![](../../assets/randomizer/configure-randomizer.png){ width="300" }
 
 !!! tip
 
@@ -35,6 +39,6 @@ Finally, to patch the rom, create a copy of your original rom, then right click 
 
 Click "Patch rom with mod" and in the dialog uncheck "Include sprites in patch" since we haven't modified any images so it's unnecessary, and requires extra things to get working. Provide it with the rom you want to patch.  
 
-![Animated image showing the right click menu being openend on a mod and patch option being selected](../assets/patch-rom-menu.gif)
+![Animated image showing the right click menu being openend on a mod and patch option being selected](../../assets/getting-started/patch-rom-menu.gif)
 
 Click "Apply mod" and it will begin patching and notify you soon of completion. Then your rom is ready to go.

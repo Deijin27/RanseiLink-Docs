@@ -1,4 +1,8 @@
-# Sample Lua Scripts
+---
+icon: lucide/file-terminal
+---
+
+# Scripting With Lua
 
 RanseiConsole supports scripting using Lua. You can run a lua script by:
 

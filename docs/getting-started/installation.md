@@ -1,3 +1,7 @@
+---
+icon: lucide/hard-drive-download
+---
+
 # Installation
 
 RanseiLink is a portable executable. Just download, unzip, and you're ready to go.

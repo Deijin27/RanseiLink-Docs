@@ -1,6 +1,10 @@
+---
+icon: lucide/blocks
+---
+
 # Plugins Explained 
 
-RanseiLink supports plugins. This page explains each of the ones written by Deijin. Currently the latest versions of these are included with a ranseilink release as of the date of release. But these plugins are updated independently, thus you can be sure you have the latest ones from here: https://drive.google.com/drive/folders/1LQDr4OF5MiOdRu1AFNIN9P7eaCQLHSA_?usp=sharing
+RanseiLink supports plugins. This page explains each of the ones written by Deijin. Currently the latest versions of these are included with a ranseilink release as of the date of release.
 
 ## Changelist Plugin
 

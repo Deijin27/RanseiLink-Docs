@@ -1,3 +1,7 @@
+---
+icon: lucide/image
+---
+
 # Image Types
 
 ## Pokemon Battle Sprites
