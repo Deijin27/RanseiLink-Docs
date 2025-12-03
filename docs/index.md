@@ -29,7 +29,7 @@ title: Home
 
     Game text can be edited, allowing translators to bring this amazing game to more people.
 
-    [:material-arrow-right: Learn More](./guides/map-editing/map-editing.md)
+    [:material-arrow-right: Learn More](#)
 
 -   ![](./assets/kingdom-top-screen-anim.gif){ width="250" title="Screenshot from RanseiLink animation editor" }
 
@@ -37,7 +37,7 @@ title: Home
 
     Have a fun new experience, with random teams and wacky animations.
 
-    [:material-arrow-right: Learn More](./getting-started/randomizer.md)
+    [:material-arrow-right: Learn More](./getting-started/plugins/randomizer.md)
     
 </div>
 
@@ -58,7 +58,7 @@ title: Home
 
     Import custom battle map 3D models and layout gimmicks on them.
 
-    [:material-arrow-right: Learn More](./guides/map-editing/map-editing.md)
+    [:material-arrow-right: Learn More](./guides/map-editing/map-3d-editing.md)
 
 -   ![](./assets/kingdom-top-screen-anim.gif){ width="250" title="Screenshot from RanseiLink animation editor" }
 

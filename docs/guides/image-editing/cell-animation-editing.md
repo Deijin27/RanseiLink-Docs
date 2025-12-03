@@ -4,6 +4,8 @@ icon: lucide/video
 
 # Cell Animation Editing
 
+![](../../assets/kingdom-top-screen-anim.gif){ width="250" title="Screenshot from RanseiLink animation editor" }
+
 ## Introduction
 
 You can edit various animated image sets in RanseiLink:

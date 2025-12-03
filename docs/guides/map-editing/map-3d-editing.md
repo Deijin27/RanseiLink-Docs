@@ -5,6 +5,8 @@ title: Map 3D Models
 
 # Editing 3D Models of Maps
 
+![](../../assets/terrera-3d.png){ width="250" title="Custom map from Twin Dragons by Bagon" }
+
 To edit 3D models of maps you will need [RanseiLink v5.0 or above](https://github.com/Deijin27/RanseiLink/releases/latest), as well as an external 3D modelling software. This guide will use [blender](https://www.blender.org/), but if you have experience with another software you should be able to get the job done with that too.
 
 Also make sure you have clicked the button **"Populate Graphics Defaults"** on the home screen of RanseiLink.
