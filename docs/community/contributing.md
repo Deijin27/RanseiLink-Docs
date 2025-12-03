@@ -19,7 +19,7 @@ Here's a few examples of discoveries made by people:
 - [Bagon Discovered](https://github.com/Deijin27/RanseiLink/discussions/57) how to control the order of pokemon move animations.
 - [Geodude Discovered](https://github.com/Deijin27/RanseiLink/discussions/56) that Catch Rate affects the facility level that a pokemon appears in.
 
-If you figure something out, let us know via the ![discussions page](https://github.com/Deijin27/RanseiLink/discussions).
+If you figure something out, let us know via the [discussions page](https://github.com/Deijin27/RanseiLink/discussions).
 
 ## Documentation
 
