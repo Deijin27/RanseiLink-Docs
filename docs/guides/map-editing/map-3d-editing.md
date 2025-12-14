@@ -1,5 +1,5 @@
 ---
-icon: lucide/rotate-3d
+icon: lucide/map
 title: Map 3D Models
 ---
 

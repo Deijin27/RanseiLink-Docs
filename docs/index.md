@@ -31,7 +31,7 @@ title: Home
 
     [:material-arrow-right: Learn More](#)
 
--   ![](./assets/kingdom-top-screen-anim.gif){ width="250" title="Screenshot from RanseiLink animation editor" }
+-   ![](./assets/randomized.png){ width="250" title="Screenshot of randomized game, player has dialga and hideyoshi has wooper. Type types of pokemon are different from normal." }
 
     **Randomize**
 

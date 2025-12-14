@@ -69,7 +69,8 @@ nav = [
             "guides/image-editing/cell-animation-editing.md"
         ]},
         { "Map Editing" = [
-            "guides/map-editing/map-3d-editing.md"
+            "guides/map-editing/map-3d-editing.md",
+            "guides/map-editing/gimmick-3d-editing.md"
         ]}
     ]},
     { "Community" = [
