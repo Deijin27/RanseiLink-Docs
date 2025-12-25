@@ -7,7 +7,7 @@ title: Home
 
 # RanseiLink - Pokémon Conquest Rom Editor
 
-<a href="https://github.com/Deijin27/RanseiLink/releases/download/v6.1/RanseiLink-Windows-6.1.zip" markdown>![Download for Windows](./assets/download-windows.png){ width="150" }</a>
+<a href="https://github.com/Deijin27/RanseiLink/releases/download/v7.0/RanseiLink-7.0-win-x64.zip" markdown>![Download for Windows](./assets/download-windows.png){ width="150" }</a>
 
 
 ![Two screenshots of RanseiLink app overlayed so the top left half shows the dark theme and the bottom right half shows the light theme](./assets/theme-comparison.png){ width="560" }

@@ -4,7 +4,7 @@ icon: lucide/notebook-pen
 
 # Changelog
 
-## 7.0 { id="7.0" }
+## 7.0 <small>- Dec 25, 2025</small> { id="7.0" }
 
 **Modding Capabilities**
 

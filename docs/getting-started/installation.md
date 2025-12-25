@@ -6,7 +6,7 @@ icon: lucide/hard-drive-download
 
 RanseiLink is a portable executable. Just download, unzip, and you're ready to go.
 
-<a href="https://github.com/Deijin27/RanseiLink/releases/download/v6.1/RanseiLink-Windows-6.1.zip" markdown>![Download for Windows](../assets/download-windows.png){ width="150" }</a>
+<a href="https://github.com/Deijin27/RanseiLink/releases/download/v7.0/RanseiLink-7.0-win-x64.zip" markdown>![Download for Windows](../assets/download-windows.png){ width="150" }</a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T2x-zzHFAho?si=VFAfU1gEgXO3Kepo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
