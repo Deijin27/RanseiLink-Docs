@@ -47,6 +47,7 @@ icon: lucide/notebook-pen
 - Various minor visual issues fixed including some missing margins and certain colors not dynamically updating.
 - Fix "asymmetric" and "long attack" buttons not visually updating when importing a custom pokemon sprite animation
 - Fix building animated sprite import-export not working.
+- Fix decimal separator being system culture dependent in places where it shouldn't i.e. in saved/exported files.
 
 
 ## 6.1 <small>- Dec 13, 2024</small> { id="6.1" }
