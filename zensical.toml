@@ -86,13 +86,28 @@ nav = [
         { "Game Data" = [
             "research/game-data/pokemon-battle-intro-sprite-offset.md",
             "research/game-data/pokemon-models.md",
-            "research/game-data/regional-differences.md"
+            "research/game-data/regional-differences.md",
+        ]},
+        { "Game Code" = [
+            "research/game-code/setup.md",
+            "research/game-code/exp-to-link.md"
         ]}
     ]},
     { "About" = [
         "about/changelog.md",
         "about/licence.md"
     ]}
+]
+
+# Support Latex
+extra_javascript = [
+    "javascripts/katex.js",
+    "https://unpkg.com/katex@0/dist/katex.min.js",
+    "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"
+]
+
+extra_css = [
+    "https://unpkg.com/katex@0/dist/katex.min.css"
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -366,5 +381,4 @@ primary = "deep purple"
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
 link = "https://github.com/Deijin27/RanseiLink"
-
 
