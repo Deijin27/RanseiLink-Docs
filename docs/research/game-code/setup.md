@@ -14,9 +14,7 @@ Here are the high level steps with conquest-specific things I ran into:
 2. The pokemon conquest files are compressed using blz compression. Decompress arm9.bin and all the overlay files with the compression tool linked in the guide. (`blz.exe -d arm9.bin`)
 3. Install the latest version of desmume (I had 9.0.9 originally, which doesn't have watchpoint functionality, so I updated to 0.9.11)
 4. Install Ghidra (I had to install the [java sdk](https://www.oracle.com/java/technologies/downloads/#jdk25-windows) to get it working)
-5. Set up ghidra project with arm9.bin.  
-
-Something weird I've found is that the offsets in desmume do not match the offsets in ghidra, which makes it annoying to debug things. Maybe related to the compression.
+5. Set up ghidra project with arm9.bin. NOTE: The arm9.bin base address is 0x02004000, different to the one in the tutorial.
 
 ## Overlays
 
