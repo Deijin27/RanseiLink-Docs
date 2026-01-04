@@ -90,7 +90,8 @@ nav = [
         ]},
         { "Game Code" = [
             "research/game-code/setup.md",
-            "research/game-code/exp-to-link.md"
+            "research/game-code/exp-to-link.md",
+            "research/game-code/terrain.md"
         ]}
     ]},
     { "About" = [
