@@ -3,7 +3,7 @@
 
 The terrain type that a pokemon is standing gives a power boost of 1.2x to their attacks.
 
-The following list is what type is boosted by each terrain. While it is stored as a table in game, so it would be possible for terrains to boost multiple types, they've only made each terrain boost a single type.
+The following list is what type is boosted by each terrain. While it is stored as a table in game (at 0x20AE868 in arm9.bin), so it would be possible for terrains to boost multiple types, they've only made each terrain boost a single type.
 
 - Normal: Normal
 - Magma: Fire
