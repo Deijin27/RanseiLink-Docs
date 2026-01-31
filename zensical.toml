@@ -97,6 +97,7 @@ nav = [
     ]},
     { "About" = [
         "about/changelog.md",
+        "about/roadmap.md",
         "about/licence.md"
     ]}
 ]
